@@ -238,14 +238,14 @@
 			<div class="user-vote">
 			  <div class="col-lg-4">
 					<p id='question'></p>
-				  <form class="form-block" id="update-poll-form">
+				  <form class="form-block" id="submit-poll-form">
 						<p>
 							<label for='#option0' id='label0'></label>
 							<input type="radio" class="form-control user-vote-option0" id='option0' name='response' autocomplete="off">
 							<label for='#option1' id='label1'></label>
 				      <input type="radio" class="form-control user-vote-option1" id='option1' name='response' autocomplete="off">
 						</p>
-						<button type="submit" class="btn btn-default update-poll">Submit Vote</button>
+						<button type="submit" class="btn btn-default create-poll-vote">Submit Vote</button>
 					</form>
 				</div><!-- /.col-lg-4 -->
 			</div><!--End of User Vote section-->
@@ -264,17 +264,17 @@
 						<div class="modal-body">
 							<form class="form-block" id="update-poll-form">
 								<div class="form-group">
-									<label class="control-label" for="poll-question-form">Whats your question?</label>
-									<textarea class="form-control" id="poll-question-form" name="poll[question]" placeholder="What smells worse...?"></textarea>
+									<label class="control-label" for="poll-question-form">Update your question?</label>
+									<textarea class="form-control" id="poll-question-form" name="poll[question]"></textarea>
 								</div>
-								<div class="form-group">
+					<!--	<div class="form-group">
 									<label class="control-label" for="option1">Answer 1:</label>
 									<input type="text" class="form-control" id="option1" name="option1[response]" placeholder="The Hulks feet"></input>
 								</div>
 								<div class="form-group">
 									<label class="control-label" for="option2">Answer 2:</label>
 									<input type="text" class="form-control" id="option2" name="option2[response]" placeholder="Iron Mans' armor"></input>
-								</div>
+								</div>-->
 								<button type="submit" class="btn btn-primary update-poll-btn">Update</button>
 							</form>
 						</div>

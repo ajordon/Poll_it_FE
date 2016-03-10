@@ -1,0 +1,13 @@
+<tr>
+  <td>Id:</td>
+  <td>Question:</td>
+  <td>Total Votes: </td>
+</tr>
+
+{{#if polls}}
+  {{#each polls}}
+    <tr>{{> poll}}</tr>
+  {{/each}}
+{{else}}
+  <tr>No Polls for you.......yet</tr>
+{{/if}}
