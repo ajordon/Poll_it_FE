@@ -10,7 +10,7 @@ require('../styles/index.scss');
 const UI = require('./ui.js');
 
 const myApp = {
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http://murmuring-anchorage-90095.herokuapp.com/',
 };
 
 // data.polls[0].options.map(function(option){ return option.response; }); returns ["Batmand", "Superman"]
