@@ -36,7 +36,7 @@ webpackJsonp([0],[
 	var UI = __webpack_require__(12);
 
 	var myApp = {
-	  baseUrl: 'http://localhost:3000'
+	  baseUrl: 'http://murmuring-anchorage-90095.herokuapp.com/'
 	};
 
 	// data.polls[0].options.map(function(option){ return option.response; }); returns ["Batmand", "Superman"]
