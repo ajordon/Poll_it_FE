@@ -3,7 +3,7 @@
 var webpackConfig = require('./webpack').options;
 
 // enable live reload without a script tag
-webpackConfig.entry.vendor.unshift('webpack-dev-server/client?http://localhost:8080');
+webpackConfig.entry.vendor.unshift('webpack-dev-server/client?http://localhost:8080/');
 
 module.exports = {
   options: {
